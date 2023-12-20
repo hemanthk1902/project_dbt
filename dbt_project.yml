@@ -2,13 +2,9 @@
 # and underscores. A good package name should reflect your organization's
 
 name: "dbt_project"
-version: "1.0.0"
-config-version: 2
 
 # name or the intended use of these models
 models:
-  dbt_project:
+  project_poc:
     +materialized: table
     # Applies to all files under models/example/
-    example:
-      +materialized: table

@@ -1,5 +1,5 @@
 sources:
-  - name: dbt_poc
+  - name: project_poc
     description: snow falke
     database: dbt_raw
     schema: raw
