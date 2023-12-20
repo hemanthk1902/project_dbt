@@ -1,11 +1,7 @@
-# Name your project! Project names should contain only lowercase characters
-# and underscores. A good package name should reflect your organization's
-
 name: "dbt_project"
 models:
-    +materialized: table
-    project_doc:
-      transient: false
-      +materialized: table
+  dbt_project:
+    +materialzed: table
 
-    # Applies to all files under models/example/
+  
+  
