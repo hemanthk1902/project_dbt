@@ -2,6 +2,3 @@ name: "dbt_project"
 models:
   dbt_project:
     +materialzed: table
-
-  
-  
