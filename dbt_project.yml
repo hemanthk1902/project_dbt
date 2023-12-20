@@ -1,7 +1,6 @@
 name: "dbt_project"
 models:
   dbt_project:
-    transient: false
     +materialzed: table
 
   
