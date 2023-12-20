@@ -3,9 +3,9 @@
 
 name: "dbt_project"
 models:
-    +materialized: table
-    project_doc:
-      transient: false
-      +materialized: table
 
-    # Applies to all files under models/example/
+  dbt_project:
+    project_poc:
+      transient: false
+      +materialzed: table
+  
