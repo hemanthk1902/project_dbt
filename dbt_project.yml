@@ -5,7 +5,6 @@ name: "dbt_project"
 models:
 
   dbt_project:
-    project_poc:
-      transient: false
-      +materialzed: table
+    transient: false
+    +materialzed: table
   
