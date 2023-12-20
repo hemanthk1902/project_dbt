@@ -21,5 +21,6 @@ clean-targets: # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 models:
-  dbt_project:
-    materialized: table
+  materialized: table
+
+    
