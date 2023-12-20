@@ -4,4 +4,4 @@ select
     first_name,
     last_name
 
- from {{ source('dbt_poc', 'd_customers') }}
+ from {{ source('project_poc', 'd_customers') }}

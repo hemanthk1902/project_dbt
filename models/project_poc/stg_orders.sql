@@ -4,4 +4,4 @@
     user_id as customer_id,
     order_date
 
-from {{ source('dbt_poc', 'd_orders') }} 
+from {{ source('project_poc', 'd_orders') }} 
