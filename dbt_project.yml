@@ -5,7 +5,6 @@ name: "dbt_project"
 
 # name or the intended use of these models
 models:
-  project_poc:
-    materialized: table
+    +materialized: table
     transient: false
     # Applies to all files under models/example/
