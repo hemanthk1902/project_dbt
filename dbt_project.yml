@@ -2,9 +2,10 @@
 # and underscores. A good package name should reflect your organization's
 
 name: "dbt_project"
-
-# name or the intended use of these models
 models:
     +materialized: table
-    transient: false
+    project_doc:
+      transient: false
+      +materialized: table
+
     # Applies to all files under models/example/
