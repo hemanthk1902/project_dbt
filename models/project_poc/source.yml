@@ -1,0 +1,10 @@
+sources:
+  - name: dbt_poc
+    description: snow falke
+    database: dbt_raw
+    schema: raw
+    tables:
+      - name: d_customers
+        description: One record per customer.
+      - name: d_orders
+        description: One record per order. Includes cancelled and deleted orders.
